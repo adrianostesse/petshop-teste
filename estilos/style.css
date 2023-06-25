@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* 375 x 600  */
+
+@font-face {
+    font-family: titulopet;
+    src: url(../fontes/American\ Captain.ttf) format(truetype);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: radial-gradient(#9e7c61 20%, #553b33 80%);
+    font-weight: bold;
+    
+}
+
+p {
+    font-family: cursive;
+    font-size: 0.9em;
+}
+
+h1 {
+    font-family: titulopet, arial, sans-serif;
+    font-size: 2.8em;
+    width: 50%;
+    text-shadow: 3px 2px 10px #3a2721;
+}
+
+img {
+    width: 60%;   
+}
+
+picture {
+    position: relative;
+}
+
+.imagem {
+    position: absolute;
+    width: 70vw;
+    transform: translate(50px,-45px);
+    
+}
+
+.logo {
+    width: 50%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.menu {
+    margin: 7px 20px;
+    text-align: center;
+    font-size: .9em;
+}
+
+.menu > a {
+    margin-left: 5px;
+    padding: 7px 15px 7px 15px;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    background-color: rgb(134, 82, 82);
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px #553b33;
+}
+
+a:hover {
+    background-color: #9b7272;
+}
+
+section {
+    max-width: 310px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-size: .85em;
+}
+
+footer {
+    position: relative;
+    transform: translateY(32vh);
+    padding: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: .8em;
+}

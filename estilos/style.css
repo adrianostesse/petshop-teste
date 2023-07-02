@@ -8,11 +8,6 @@
     src: url('https://fonts.googleapis.com/css2?family=Mali:wght@400;500;700&display=swap');
 }
 
-@font-face {
-    font-family: titulopet;
-    src: url(../fontes/American\ Captain.ttf) format(truetype);
-}
-
 .logo, .logog {
     display: none;
 }
@@ -27,8 +22,9 @@
 }
 
 html, body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    
 }
 
 * {
@@ -41,6 +37,7 @@ body {
     background-image: radial-gradient(#9e7c61 20%, #553b33 80%);
     font-weight: bold;
     font-family: 'mali', 'Courier New', Courier, monospace;
+    min-width: 100%;
 }
 
 p {
@@ -48,12 +45,11 @@ p {
 }
 
 h1 {
-    font-family: titulopet, arial, sans-serif;
+    font-family: 'mali' 'Times New Roman', serif;
     font-size: 3em;
     text-shadow: 3px 2px 10px #3a2721;
     
 }
-
 
 .pic-img {
     display: flex;

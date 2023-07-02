@@ -8,7 +8,7 @@
         font-size: 3.8em;
         margin-left: 50px;
     }
-    .imagemp, .imagemg, .logo, .logog {
+    .imagemp, .logo {
         display: none;
     }
 
@@ -33,7 +33,7 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .imagemp, .imagemg, .logo {
+    .imagemp, .logo {
         display: none;
     }
 
@@ -62,7 +62,7 @@
 }
 
 @media (min-width: 1024px) {
-    .imagemp, .imagemg, .logop {
+    .imagemp, .logop {
         display: none;
     }
     .menu {

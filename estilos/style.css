@@ -8,11 +8,11 @@
     src: url('https://fonts.googleapis.com/css2?family=Mali:wght@400;500;700&display=swap');
 }
 
-.logo, .logog {
+.logo {
     display: none;
 }
 
-.imagem, .imagemg {
+.imagem {
     display: none;
 }
 
@@ -48,7 +48,6 @@ h1 {
     font-family: 'mali' 'Times New Roman', serif;
     font-size: 3em;
     text-shadow: 3px 2px 10px #3a2721;
-    
 }
 
 .pic-img {

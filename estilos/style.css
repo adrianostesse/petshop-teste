@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* 375 x 600  */
+/* mobile first  */
 
 @font-face {
     font-family: titulopet;
@@ -24,7 +24,7 @@ html, body {
 body {
     background-image: radial-gradient(#9e7c61 20%, #553b33 80%);
     font-weight: bold;
-    
+    color: black;
 }
 
 p {
@@ -40,26 +40,18 @@ h1 {
 }
 
 
-picture {
-    position: relative;
-    
-}
 
-.imagem {
-    position: absolute;
-    transform: translate(75%,-15%);
-}
-
-.logo {
-    width: 200px;
+.pic-img {
+    display: flex;
+    justify-content: center;
 }
 
 .cabecalho {
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: -20px;
-    margin-bottom: -10px;
+    margin-top: -30px;
+    margin-bottom: -20px;
 }
 
 .menu {
@@ -86,15 +78,11 @@ section {
     max-width: 310px;
     text-align: center;
     margin: auto;
-    padding: 15px;
+    padding: 10px;
     font-size: .85em;
 }
 
 footer {
-    position: relative;
-    transform: translateY(180px);
-    padding: 4px;
-    text-align: center;
-    box-sizing: border-box;
-    font-size: .9em;
+   text-align: center;
+
 }

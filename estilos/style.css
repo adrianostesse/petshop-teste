@@ -39,23 +39,19 @@ h1 {
     text-shadow: 3px 2px 10px #3a2721;
 }
 
-img {
-    width: 60%;   
-}
 
 picture {
     position: relative;
+    
 }
 
 .imagem {
     position: absolute;
-    width: 70vw;
-    transform: translate(50px,-45px);
-    
+    transform: translate(75%,-15%);
 }
 
 .logo {
-    width: 50%;
+    width: 200px;
 }
 
 .cabecalho {
@@ -96,9 +92,9 @@ section {
 
 footer {
     position: relative;
-    transform: translateY(32vh);
+    transform: translateY(180px);
     padding: 4px;
     text-align: center;
     box-sizing: border-box;
-    font-size: .8em;
+    font-size: .9em;
 }

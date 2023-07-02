@@ -1,105 +1,85 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 600px) {
-    h1 {
-        font-size: 3.5em;
-    }
-    .menu {
-        margin-top: -20px; 
+    .cabecalho {
+        margin-left: -70px;
     }
 
-    img {
-        width: 200px;
+    h1 {
+        font-size: 3.8em;
+        margin-left: 50px;
+    }
+    .imagemp, .imagemg, .logo, .logog {
+        display: none;
     }
 
     .imagem {
-        
-        width: 70vw;
-        transform: translate(10vw,-10vw);
+        display: block;
+        width: 300px;
     }
 
-    .logo {
-        width: 40%;
+    .menu {
+        font-size: 1.1em;
     }
 
     section {
-        max-width: 500px;
+        max-width: 530px;
         font-size: 1em;
     }
 
     footer {
         font-size: 1em;
-        transform: translateY(42vh);
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .cabecalho {
-        margin-top: -30px;
-        margin-bottom: -30px;
-    }
-
-    .menu {
-        font-size: 1.5em;
-        margin: 30px;
-    }
-
-    h1 {
-        font-size: 4.5em;
-    }
-
-    img {
-        width: 350px;
+    .imagemp, .imagemg, .logo {
+        display: none;
     }
 
     .imagem {
-        width: 55vw;
-        transform: translate(22vw,-5vh);
-    }
-
-    .logo {
-        width: 35%;
-    }
-
-    section {
-        max-width: 800px;
-        font-size: 1.4em;
-    }
-
-    footer {
-        transform: translateY(40vh);
-        font-size: 1.3em;
-    }
-}
-
-@media (min-width: 1024px) {
-    .cabecalho {
-        margin-top: -50px;
-        margin-bottom: -40px;
+        display: block;
+        width: 320px;
     }
 
     .menu {
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin: 10px;
     }
 
     h1 {
-        font-size: 4.1em;
-        
+        font-size: 4.3em;
     }
 
-    img {
-        width: 300px;
-
+    section {
+        max-width: 720px;
+        font-size: 1.1em;
     }
 
-    .imagem {
-        width: 40vw;
-        transform: translate(30vw,-10vh);
+    footer {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    .imagemp, .imagemg, .logop {
+        display: none;
+    }
+    .menu {
+        font-size: 1.2em;
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 4.2em;
     }
 
     .logo {
-        width: 35%;
+        display: block;
+        width: 150px;
+    }
+    .imagem {
+        display: block;
     }
 
     section {
@@ -108,49 +88,40 @@
     }
 
     footer {
-        transform: translateY(35vh);
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1280px) {
+    .imagemp, .logop {
+        display: none;
+    }
+
     h1 {
-    font-size: 4.7em;
-    width: 45%;
+        font-size: 4.7em;
+    
     }
     
     .menu {
-        font-size: 1.4em;
+        font-size: 1.2em;
         margin: 10px;
     }
 
-    .cabecalho {
-        margin-top: -50px;
-        margin-bottom: -40px;
-    }
-
-    img {
-        width: 320px;
-    }
-
     .imagem {
-        width: 30vw;
-        transform: translate(35vw,-6vh);
-        
+        width: 400px;
     }
 
     .logo {
-        width: 30%;
+        display: block;
     }
 
     section {
-        font-size: 1.1em;
-        max-width: 1000px;
+        font-size: 1.3em;
+        max-width: 1100px;
     }
 
     footer {
         font-size: 1.2em;
-        transform: translateY(40vh);
     }
 }

@@ -13,6 +13,14 @@
     src: url(../fontes/American\ Captain.ttf) format(truetype);
 }
 
+.logo, .logog {
+    display: none;
+}
+
+.imagem, .imagemg {
+    display: none;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -26,25 +34,24 @@ html, body {
 * {
     margin: 0px;
     padding: 0px;
+    color: black;
 }
 
 body {
     background-image: radial-gradient(#9e7c61 20%, #553b33 80%);
     font-weight: bold;
-    color: black;
     font-family: 'mali', 'Courier New', Courier, monospace;
 }
 
 p {
-    
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
 
 h1 {
     font-family: titulopet, arial, sans-serif;
-    font-size: 2.8em;
-    width: 50%;
+    font-size: 3em;
     text-shadow: 3px 2px 10px #3a2721;
+    
 }
 
 
@@ -57,8 +64,7 @@ h1 {
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-top: -30px;
-    margin-bottom: -20px;
+    margin: 5px;
 }
 
 .menu {
@@ -82,11 +88,11 @@ a:hover {
 }
 
 section {
-    max-width: 320px;
+    max-width: 350px;
     text-align: center;
     margin: auto;
     padding: 10px;
-    font-size: .85em;
+    font-size: .9em;
 }
 
 footer {
